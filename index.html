@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal protfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://imgs.search.brave.com/vWG8qnYVZKOB-GUpD28PFVJRRbocDNfue06-bmx3FCU/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/c2Rlc2suY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzA1/L0JNVy1Mb2dvLVBO/Ry5wbmc" type="image/x-icon">
+</head>
+<body>
+    <div class="navabr">
+        <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxtomcAhqHu3X2B8Haxa3bK3mXFYqhMtDYJg&usqp=CAU" alt="" class="logo">
+        <div onclick="myUl(this)" class="toogle-ul">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="ul">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="home" id="home">
+        <div class="txt">
+            <h1>I'm a <span>Coder</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla, aliquam nihil ea fugit modi sit illo, dolorem maiores error quos. Repellat officia sunt placeat deleniti magni suscipit repudiandae tempora harum rerum dicta eaque officiis dolores similique, est maiores id, veniam ratione labore doloremque accusantium obcaecati cum in expedita libero? Obcaecati beatae voluptatum, eligendi quod laudantium quasi maiores numquam officia?</p>
+            <a href="">Hire Me</a>
+        </div>
+        <img src="https://static.vecteezy.com/system/resources/previews/003/812/344/large_2x/male-programmer-working-with-computers-free-vector.jpg" alt="">
+    </div>
+    <div class="home" id="about">
+        <img src="https://static.vecteezy.com/system/resources/previews/004/217/720/large_2x/video-tutorials-background-illustration-watching-and-streaming-online-on-computer-about-education-knowledge-for-web-banner-brochures-poster-or-book-cover-vector.jpg" alt="">
+        <div class="txt">
+            <h1>Lochan Jangid</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla, aliquam nihil ea fugit modi sit illo, dolorem maiores error quos. Repellat officia sunt placeat deleniti magni suscipit repudiandae tempora harum rerum dicta eaque officiis dolores similique, est maiores id, veniam ratione labore doloremque accusantium obcaecati cum in expedita libero? Obcaecati beatae voluptatum, eligendi quod laudantium quasi maiores numquam officia?</p>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+    <div class="service" id="service">
+        <div class="card">
+            <img src="https://imgs.search.brave.com/s34yvtTY-xgNkvbX6Ir5tgmRbcOZkBSTGTDxAFLCLCM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9sb2dv/cy1kb3dubG9hZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTcvMDcvSFRNTDVf/YmFkZ2UucG5n" alt="">
+            <div class="txt">
+                <h1>HTML</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vero?</p>
+                <a href="">Start</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://imgs.search.brave.com/RDCE6e2-TlvotB5ryZDLWVUGPao0AV0Yubc3ettA-LI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/ZnJlZWJpZXN1cHBs/eS5jb20vbG9nb3Mv/bGFyZ2UvMngvY3Nz/My1sb2dvLXBuZy10/cmFuc3BhcmVudC5w/bmc" alt="">
+            <div class="txt">
+                <h1>CSS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vero?</p>
+                <a href="">Start</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://imgs.search.brave.com/AZ-OnJJAmubrOaKXYoNFRztbEIYMRf_0DWSzjOOuf6w/rs:fit:938:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk4LzBi/L2EwLzk4MGJhMDc5/NTZjY2ZkZjgxYjUw/NjBiMTc5NWNkY2Fk/LnBuZw" alt="">
+            <div class="txt">
+                <h1>JS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vero?</p>
+                <a href="">Start</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone number">
+            <textarea placeholder="message..." cols="30" rows="10"></textarea>
+           <input class="btn" type="submit" value="Send">
+        </form>
+    </div>
+    <footer style="text-align: center;padding: 10px;">
+        <p style="color: rgb(115, 115, 115);font-family: Arial, Helvetica, sans-serif;">Copyright &copy; by <span style="cursor:pointer;color: rgb(37, 117, 208);">Lochan Jangid</span></p>
+    </footer>
+    <script>
+        function myUl(e){
+let ul = document.getElementById("ul");
+ul.classList.toggle("active");
+e.classList.toggle("act");
+        }
+    </script>
+</body>
+</html>
